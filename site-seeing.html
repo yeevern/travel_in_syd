@@ -10,6 +10,11 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
 </style>
+<style>
+  .w3-sidebar .w3-bar-item {
+    font-size: 20px; /* Adjust this value to make the text smaller or larger */
+  }
+</style>
 </head>
 <body>
 
@@ -26,7 +31,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <a href="church.html" class="w3-bar-item w3-button">Church</a>
   <a href="lighthouse.html" class="w3-bar-item w3-button">Lighthouse</a>
   <a href="market.html" class="w3-bar-item w3-button">Market</a>
-  <a href="outdoor-fun-act.html" class="w3-bar-item w3-button">Outdoor Fun Activity</a>
+  <a href="outdoor-fun-act.html" class="w3-bar-item w3-button">Adventure</a>
   <a href="restaurant.html" class="w3-bar-item w3-button">Restaurant</a>
   <a href="site-seeing.html" class="w3-bar-item w3-button">Site Seeing</a>
   <a href="zoo.html" class="w3-bar-item w3-button">Zoo</a>
@@ -104,18 +109,79 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     </div>
   </div>
 
+  <!-- Second Page -->
+  <div id="page2" style="display:none;">
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Sydney_Chinatown_in_Dixon_Street.jpg/1200px-The_Sydney_Chinatown_in_Dixon_Street.jpg" alt="China Town" style="width:100%">
+        <h3>China Town</h3>
+        <p>Dating from the 1920s, Chinatown in Sydney is cited as the largest of its kind in Australia.</p>
+        <h6><em>Admission Type: Free</em></h6>
+      </div>
+      <!-- <div class="w3-quarter">
+        <a href="https://www.reptilepark.com.au/" target="_blank">
+          <img src="https://newywithkids.com.au/wp-content/uploads/2021/01/AustralianReptilePark1-768x1024.jpeg" alt="Reptile Park" style="width:100%">
+        </a>
+        <h3>Reptile Park</h3>
+        <p>Discover the largest collection of reptiles in Australia spanning across an area of 22 acres.</p>
+        <h6><em>Admission Type: Paid</em></h6>
+      </div>
+      <div class="w3-quarter">
+        <a href="https://www.symbiozoo.com.au/" target="_blank">
+          <img src="https://staycationaustralia.com/wp-content/uploads/2023/06/1-4-683x1024.jpg" alt="Symbio Wildlife Park" style="width:100%">
+        </a>
+        <h3>Symbio Wildlife Park</h3>
+        <p>Don't miss the chance to feed the farm animals of the park, like - sheep, ducks, goats, and guinea pigs.</p>
+        <h6><em>Admission Type: Paid</em></h6>
+      </div>
+      <div class="w3-quarter">
+        <a href="https://www.wildlifesydney.com.au/" target="_blank">
+          <img src="https://d3n8a8pro7vhmx.cloudfront.net/rainbowfamilies/pages/340/attachments/original/1594188338/Kalina_w_logo.jpg?1594188338" alt="Wildlife Sydney" style="width:100%">
+        </a>
+        <h3>Wildlife Sydney</h3>
+        <p>Explore some of the unique Aussie animals like Tasmania Devils, Wombats, Quokka, Numbat, Kangaroos, and more.</p>
+        <h6><em>Admission Type: Paid</em></h6>
+      </div> -->
+    </div>
+  
+    <!-- Second Photo Grid-->
+    <!-- <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Interior%2C_Art_Gallery_of_New_South_Wales%2C_Sydnay%2C_2021%2C_02.jpg" alt="Art Gallery of NSWe" style="width:100%">
+        <h3>Art Gallery of NSW</h3>
+        <p>Admission is free, and so are most of our exhibitions and events. Some parts of the Art Gallery have different opening hours, including: library, archive and children's art library.</p>
+        <h6><em>Admission Type: Free</em></h6>
+      </div>
+      <div class="w3-quarter">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/773/365/non_2x/st-marys-cathedral-in-sydney-australia-photo.jpg" alt="St Mary's Cathedral" style="width:100%">
+        <h3>St Mary's Cathedral</h3>
+        <p>Gothic-style Catholic cathedral built of local sandstone from 1868-1928, offering mass & exhibits.</p>
+        <h6><em>Admission Type: Free</em></h6>
+      </div>
+      <div class="w3-quarter">
+        <a href="https://australian.museum/" target="_blank">
+          <img src="https://media.australian.museum/media/dd/images/Australian_Museum_2018_S46_6224.03793c9.width-1600.6eec10c.jpg" alt="Australia Museum" style="width:100%">
+        </a>
+        <h3>Australia Museum</h3>
+        <p>Visit the Australian Museum in Sydney. Experience science, culture and nature in the heart of Sydney at the Australian Museum.</p>
+        <h6><em>Admission Type: Free</em></h6>
+      </div>
+      <div class="w3-quarter">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoAT3tPaIbiRQo-_KYyoa2LTRoCG21N_A9g&s" alt="Crown Sydney" style="width:100%">
+        <h3>Crown Sydney</h3>
+        <p>Sydney's newest casino experience.</p>
+        <h6><em>Admission Type: Free</em></h6>
+      </div>
+    </div> -->
+  </div>
   
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
-      <!-- <a href="javascript:void(0)" id="prevPage" class="w3-bar-item w3-button w3-hover-black" onclick="prevPage()">«</a> -->
-      <!-- <a href="javascript:void(0)" id="page1Btn" class="w3-bar-item w3-button w3-black" onclick="showPage(1)">1</a> -->
-      <!-- <a href="javascript:void(0)" id="page2Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(2)">2</a>
-      <a href="javascript:void(0)" id="page3Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(3)">3</a>
-      <a href="javascript:void(0)" id="page4Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(4)">4</a>
-      <a href="javascript:void(0)" id="page5Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(5)">5</a>
-      <a href="javascript:void(0)" id="page6Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(6)">6</a>
-      <a href="javascript:void(0)" id="nextPage" class="w3-bar-item w3-button w3-hover-black" onclick="nextPage()">»</a> -->
+      <a href="javascript:void(0)" id="prevPage" class="w3-bar-item w3-button w3-hover-black" onclick="prevPage()">«</a>
+      <a href="javascript:void(0)" id="page1Btn" class="w3-bar-item w3-button w3-black" onclick="showPage(1)">1</a>
+      <a href="javascript:void(0)" id="page2Btn" class="w3-bar-item w3-button w3-hover-black" onclick="showPage(2)">2</a>
+      <a href="javascript:void(0)" id="nextPage" class="w3-bar-item w3-button w3-hover-black" onclick="nextPage()">»</a>
     </div>
   </div>
 
@@ -135,144 +201,31 @@ function w3_close() {
 function showPage(pageNumber) {
   var page1 = document.getElementById("page1");
   var page2 = document.getElementById("page2");
-  var page3 = document.getElementById("page3");
-  var page4 = document.getElementById("page4");
-  var page5 = document.getElementById("page5");
-  var page6 = document.getElementById("page6");
+  // var page3 = document.getElementById("page3");
 
   var page1Btn = document.getElementById("page1Btn");
   var page2Btn = document.getElementById("page2Btn");
-  var page3Btn = document.getElementById("page3Btn");
-  var page4Btn = document.getElementById("page4Btn");
-  var page5Btn = document.getElementById("page5Btn");
-  var page6Btn = document.getElementById("page6Btn");
+  // var page3Btn = document.getElementById("page3Btn");
 
   if (pageNumber === 1) {
     page1.style.display = "block";
     page2.style.display = "none";
-    page3.style.display = "none";
-    page4.style.display = "none";
-    page5.style.display = "none";
-    page6.style.display = "none";
 
     page1Btn.classList.add("w3-black");
     page1Btn.classList.remove("w3-hover-black");
     page2Btn.classList.remove("w3-black");
     page2Btn.classList.add("w3-hover-black");
-    page3Btn.classList.remove("w3-black");
-    page3Btn.classList.add("w3-hover-black");
-    page4Btn.classList.remove("w3-black");
-    page4Btn.classList.add("w3-hover-black");
-    page5Btn.classList.remove("w3-black");
-    page5Btn.classList.add("w3-hover-black");
-    page6Btn.classList.remove("w3-black");
-    page6Btn.classList.add("w3-hover-black");
 
   } else if (pageNumber === 2) {
     page1.style.display = "none";
     page2.style.display = "block";
-    page3.style.display = "none";
-    page4.style.display = "none";
-    page5.style.display = "none";
-    page6.style.display = "none";
 
     page1Btn.classList.remove("w3-black");
     page1Btn.classList.add("w3-hover-black");
     page2Btn.classList.add("w3-black");
     page2Btn.classList.remove("w3-hover-black");
-    page3Btn.classList.remove("w3-black");
-    page3Btn.classList.add("w3-hover-black");
-    page4Btn.classList.remove("w3-black");
-    page4Btn.classList.add("w3-hover-black");
-    page5Btn.classList.remove("w3-black");
-    page5Btn.classList.add("w3-hover-black");
-    page6Btn.classList.remove("w3-black");
-    page6Btn.classList.add("w3-hover-black");
 
-  } else if (pageNumber === 3) {
-    page1.style.display = "none";
-    page2.style.display = "none";
-    page3.style.display = "block";
-    page4.style.display = "none";
-    page5.style.display = "none";
-    page6.style.display = "none";
-
-    page1Btn.classList.remove("w3-black");
-    page1Btn.classList.add("w3-hover-black");
-    page2Btn.classList.remove("w3-black");
-    page2Btn.classList.add("w3-hover-black");
-    page3Btn.classList.add("w3-black");
-    page3Btn.classList.remove("w3-hover-black");
-    page4Btn.classList.remove("w3-black");
-    page4Btn.classList.add("w3-hover-black");
-    page5Btn.classList.remove("w3-black");
-    page5Btn.classList.add("w3-hover-black");
-    page6Btn.classList.remove("w3-black");
-    page6Btn.classList.add("w3-hover-black");
-
-  } else if (pageNumber === 4) {
-    page1.style.display = "none";
-    page2.style.display = "none";
-    page3.style.display = "none";
-    page4.style.display = "block";
-    page5.style.display = "none";
-    page6.style.display = "none";
-
-    page1Btn.classList.remove("w3-black");
-    page1Btn.classList.add("w3-hover-black");
-    page2Btn.classList.remove("w3-black");
-    page2Btn.classList.add("w3-hover-black");
-    page3Btn.classList.remove("w3-black");
-    page3Btn.classList.add("w3-hover-black");
-    page4Btn.classList.add("w3-black");
-    page4Btn.classList.remove("w3-hover-black");
-    page5Btn.classList.remove("w3-black");
-    page5Btn.classList.add("w3-hover-black");
-    page6Btn.classList.remove("w3-black");
-    page6Btn.classList.add("w3-hover-black");
-
-  } else if (pageNumber === 5) {
-    page1.style.display = "none";
-    page2.style.display = "none";
-    page3.style.display = "none";
-    page4.style.display = "none";
-    page5.style.display = "block";
-    page6.style.display = "none";
-
-    page1Btn.classList.remove("w3-black");
-    page1Btn.classList.add("w3-hover-black");
-    page2Btn.classList.remove("w3-black");
-    page2Btn.classList.add("w3-hover-black");
-    page3Btn.classList.remove("w3-black");
-    page3Btn.classList.add("w3-hover-black");
-    page4Btn.classList.remove("w3-black");
-    page4Btn.classList.add("w3-hover-black");
-    page5Btn.classList.add("w3-black");
-    page5Btn.classList.remove("w3-hover-black");
-    page6Btn.classList.remove("w3-black");
-    page6Btn.classList.add("w3-hover-black");
-
-  } else if (pageNumber === 6) {
-    page1.style.display = "none";
-    page2.style.display = "none";
-    page3.style.display = "none";
-    page4.style.display = "none";
-    page5.style.display = "none";
-    page6.style.display = "block";
-
-    page1Btn.classList.remove("w3-black");
-    page1Btn.classList.add("w3-hover-black");
-    page2Btn.classList.remove("w3-black");
-    page2Btn.classList.add("w3-hover-black");
-    page3Btn.classList.remove("w3-black");
-    page3Btn.classList.add("w3-hover-black");
-    page4Btn.classList.remove("w3-black");
-    page4Btn.classList.add("w3-hover-black");
-    page5Btn.classList.remove("w3-black");
-    page5Btn.classList.add("w3-hover-black");
-    page6Btn.classList.add("w3-black");
-    page6Btn.classList.remove("w3-hover-black");
-  }
+  } 
 
   // Scroll to top of the page
   window.scrollTo({top: 0, behavior: 'smooth'});
@@ -285,7 +238,7 @@ function prevPage() {
   if (pageNumber > 1) {
     showPage(pageNumber - 1);
   } else {
-    showPage(6);
+    showPage(2);
   }
 }
 
@@ -293,7 +246,7 @@ function prevPage() {
 function nextPage() {
   var currentPage = document.querySelector('[id^="page"]:not([style*="none"])');
   var pageNumber = parseInt(currentPage.id.replace('page', ''));
-  if (pageNumber < 6) { // Assuming there are 6 pages in total
+  if (pageNumber < 2) { // Assuming there are 6 pages in total
     showPage(pageNumber + 1);
   } else {
     showPage(1);
